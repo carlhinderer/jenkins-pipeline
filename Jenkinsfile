@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "carlhinderer/jenkins-docker-test"
+        registry = "carlhinderer/jenkins-pipeline"
         DOCKER_PWD = credentials('docker-login-pwd')
     }
     agent {
